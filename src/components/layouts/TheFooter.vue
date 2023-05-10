@@ -32,4 +32,12 @@ a:hover,
 a:active {
   color: #e7a117;
 }
+@media screen and (max-width: 650px) {
+  footer {
+  height: 2rem;
+}
+p {
+  font-size: 0.7rem;
+}
+}
 </style>

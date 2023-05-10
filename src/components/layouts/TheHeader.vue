@@ -20,4 +20,12 @@ header h1 {
   font-size: 3.5rem;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 650px) {
+  header {
+  height: 3rem;
+}
+header h1 {
+  font-size: 2rem;
+}
+}
 </style>

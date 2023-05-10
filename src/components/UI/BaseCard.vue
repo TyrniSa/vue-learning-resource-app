@@ -13,4 +13,9 @@ div {
   max-width: 40rem;
   background-color: #fff;
 }
+@media screen and (max-width: 650px) {
+  div {
+  max-width: 90%;
+}
+}
 </style>
