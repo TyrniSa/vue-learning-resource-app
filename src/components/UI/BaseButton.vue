@@ -1,12 +1,12 @@
 <template>
-  <button :type="type" :class="mode">
+  <button :class="mode">
     <slot></slot>
   </button>
 </template>
 
 <script>
 export default {
-  props: ['type', 'mode'],
+  props: ['mode'],
 };
 </script>
 
@@ -16,16 +16,16 @@ button {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
   font-size: 1rem;
-  background-color: #c57f1e;
-  border: 1px solid #c57f1e;
+  background-color: #E7A117;
+  border: none;
   color: #222832;
   cursor: pointer;
 }
 
 button:hover,
 button:active {
-  background-color: #754c13;
-  border-color: #754c13;
+  background-color: #C57F1E;
+  border-color: #C57F1E;
   color: #fff;
 }
 
@@ -37,7 +37,8 @@ button:active {
 
 .flat:hover,
 .flat:active {
-  background-color: #e7a117;
+  background-color: #C57F1E;
   color: #fff;
+  border: none;
 }
 </style>

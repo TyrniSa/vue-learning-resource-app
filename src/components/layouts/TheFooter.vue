@@ -9,14 +9,14 @@
 
 <style scoped>
 footer {
-  width: 100%;
-  height: 1.5rem;
-  background-color: #2f3847;
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
+  width: 100%;
+  height: 1.5rem;
+  background-color: #2f3847;
 }
 p {
   color: white;
