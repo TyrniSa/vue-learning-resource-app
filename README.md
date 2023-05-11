@@ -1,6 +1,7 @@
 # Vue Learning Resources App
 
 This is a project to practice Vue.js practice project by building an app where the user can add their learning resources. This project can be set up and used on localhost.
+This project doesn't have a backend, so the data is only stored locally in memory.
 
 Exercise provided by [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)
 
